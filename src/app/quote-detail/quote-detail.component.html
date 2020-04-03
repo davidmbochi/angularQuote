@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <ul>
+      <li> The author is {{quote.author}}</li>
+      <li>The number of votes are: </li><br>
+      <button class="btn-info" (click)='upVote()'>UP VOTE {{upvote}}</button>
+      <button class="btn-info" (click)='downVote()'>DOWN VOTE {{downvote}}</button><br>
+      <button class="btn-danger" (click)='quoteDelete(true)'>Delete Quote</button>
+    </ul>
+
+
+  </div>
+
+</div>
